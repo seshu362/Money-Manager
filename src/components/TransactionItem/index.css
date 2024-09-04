@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.history-details {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 0px;
+}
+
+.history-para-heading {
+  color: #334155;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-right: 100px;
+  margin-left: 10px;
+  width: 30px;
+}
+.delete-img {
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

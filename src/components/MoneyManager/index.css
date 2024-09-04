@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.first-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  display: flex;
+  flex-direction: column;
+  height: 152px;
+  width: 80%;
+  background-size: cover;
+  padding-top: 45px;
+  padding-left: 40px;
+  border-radius: 16px;
+}
+.first-container-heading {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.first-container-para {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.money-manager-para {
+  color: #0b69ff;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.second-container {
+  display: flex;
+  height: 152px;
+  width: 80%;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 18px;
+  margin-bottom: 25px;
+}
+
+.thrid-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 40%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  height: 100%;
+  width: 50%;
+  padding: 18px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+.add-heading {
+  color: #334155;
+  font-size: 21px;
+  font-family: 'Roboto';
+}
+.label-heading {
+  color: #7e858e;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.input {
+  color: #1e293b;
+  border: 1px solid #d7dfe9;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  height: 35px;
+  outline: none;
+  margin-bottom: 17px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 10px;
+  height: 53vh;
+}
+
+.history-heading {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.history-table-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+.history-details {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 0px;
+}
+
+.history-para-heading {
+  color: #334155;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-right: 100px;
+  margin-left: 10px;
+  width: 30px;
+}
+
+.btn-add {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 18px;
+  width: 60px;
+  height: 40px;
+}

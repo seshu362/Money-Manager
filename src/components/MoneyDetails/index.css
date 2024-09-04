@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.MoneyDetails-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  height: 130px;
+  width: 325px;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+}
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  height: 130px;
+  width: 325px;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  height: 130px;
+  width: 325px;
+  margin-right: 34px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  align-items: center;
+}
+.img {
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.para {
+  color: #7e858e;
+  font-size: 15px;
+  font-weight: 'Roboto';
+  margin-bottom: 0;
+}
+.rupees-para {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 'Roboto';
+  margin-top: 2px;
+}
